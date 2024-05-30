@@ -1,6 +1,10 @@
 # Vector Length Computation using SVE and RVV
 
-This repository contains implementations of a simple vector length computation using ARM's Scalable Vector Extension (SVE) and RISC-V's Vector Extension (RVV). The vector length computation, often used in scientific and engineering applications, calculates the magnitude of a vector provided as an array of numbers. This project showcases how to utilize vector extensions to optimize such computations.
+This repository contains implementations of a simple vector length computation using ARM's Scalable Vector Extension (SVE) and RISC-V's Vector Extension (RVV). The vector length computation, often used in scientific and engineering applications, calculates the magnitude of a vector provided as an array of numbers. This project showcases how to utilize vector extensions to optimize such computations. The vector length computation 
+
+## Implementation Details
+
+The vector length computation is implemented in four variations to showcase different programming approaches. For both the ARM SVE and RISC-V RVV, the algorithm is available in pure assembly to demonstrate direct control over hardware and in intrinsics to provide a more accessible, high-level syntax that closely resembles C programming.
 
 ## Project Structure
 
